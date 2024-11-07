@@ -71,7 +71,6 @@
   gutter: 10pt,
     align(left)[
       = #(author)
-      
       #(
         (
           if phone != "" {
@@ -234,6 +233,13 @@
   location: "Москва, Россия",
   dates: dates-helper(start-date: "2020", end-date: "2021"),
   degree: "Оператор электронно-вычислительных машин",
+)
+
+#edu(
+  institution: "Цифровая кафедра",
+  location: "Москва, Россия",
+  dates: dates-helper(start-date: "2023", end-date: "2024"),
+  degree: "Веб-разработчик",
 )
 
 == Опыт работы
